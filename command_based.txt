@@ -10,3 +10,4 @@ git init		// 在当前目录初始化git仓库
 git add docname.docformat	//添加上传文件
 git commit -m "manual"	// 对提交内容进行说明
 git status		// 查看仓库状态
+git diff		// 查看与上次修改的不同
