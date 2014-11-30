@@ -1,0 +1,12 @@
+mkdir docname		// 当前目录创建docname仓库
+pwd			// 查看当前目录
+cd			// 返回根目录
+cd ..			// 返回上一级目录
+cd docname		// 进入docname目录中
+
+git config --global user.name "Your Name"	// 设置名称
+git config --global user.email "email@example.com"	// 设置Email
+git init		// 在当前目录初始化git仓库
+git add docname.docformat	//添加上传文件
+git commit -m "manual"	// 对提交内容进行说明
+git status		// 查看仓库状态
